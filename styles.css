@@ -140,4 +140,10 @@ main .social-icons #youtube {
         margin-top: 10px;
     }
 
+    #hero .informacion-contenedor .informacion p {
+        position: absolute;
+        width: 100%;
+        left: 0;
+    }
+
 }
