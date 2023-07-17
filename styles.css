@@ -106,3 +106,32 @@ main .social-icons #twitter {
 main .social-icons #youtube {
     background: #f70000;
 }
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    #logo {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #hero .informacion-contenedor {
+        top: 30%;
+        transform: translateY(0);
+        padding: 0 20px;
+    }
+
+    #hero .informacion-contenedor #foto {
+        max-width: 150px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    main .social-icons {
+        margin-top: 20px;
+    }
+}
