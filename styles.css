@@ -115,6 +115,8 @@ main .social-icons #youtube {
 
     #logo {
         max-width: 370px;
+        position: relative;
+        left: 85px;
     }
 
     #hero .informacion-contenedor {
@@ -129,6 +131,8 @@ main .social-icons #youtube {
         left: 0;
         top: 310px;
     }
+
+
 
     #hero .informacion-contenedor #foto {
         bottom: 30px;
