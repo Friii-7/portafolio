@@ -100,13 +100,7 @@ main .social-icons #github {
     background: #121f3d;
 }
 
-main .social-icons #twitter {
-    background: #0077b0;
-}
 
-main .social-icons #youtube {
-    background: #f70000;
-}
 
 @media screen and (max-width: 600px) {
     header {
