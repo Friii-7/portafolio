@@ -130,7 +130,8 @@ main .social-icons #youtube {
         top: 310px;
     }
 
-    #hero .informacion-contenedor #foto {
+    #hero .informacion-contenedor #foto img {
+        bottom: 10px;
         max-width: 70px;
     }
 
