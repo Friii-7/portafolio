@@ -100,6 +100,10 @@ main .social-icons #github {
     background: #121f3d;
 }
 
+main .social-icons #instagram {
+    background: #3d1230;
+}
+
 
 
 @media screen and (max-width: 600px) {
