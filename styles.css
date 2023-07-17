@@ -65,6 +65,7 @@ header {
     margin-bottom: 70px;
 }
 
+
 main {
     padding: 100px;
 }
@@ -113,17 +114,22 @@ main .social-icons #youtube {
     }
 
     #logo {
-        max-width: 300px;
+        max-width: 370px;
     }
 
     #hero .informacion-contenedor {
-        top: 30%;
+        top: 5%;
         transform: translateY(0);
         padding: 0 10px;
     }
 
+    #hero .informacion-contenedor .informacion p {
+        width: 100%;
+        top: 20%;
+    }
+
     #hero .informacion-contenedor #foto {
-        max-width: 150px;
+        max-width: 70px;
     }
 
     main {
@@ -133,4 +139,6 @@ main .social-icons #youtube {
     main .social-icons {
         margin-top: 10px;
     }
+
+    main .text {}
 }
