@@ -140,5 +140,11 @@ main .social-icons #youtube {
         margin-top: 10px;
     }
 
-    main .text {}
+    main .text {
+        display: block;
+        max-width: 5px;
+        top: 10px;
+        text-align: center;
+        align-items: center;
+    }
 }
