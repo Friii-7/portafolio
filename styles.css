@@ -8,101 +8,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background: gray;
-    padding: 10px 50px;
-}
-
-.imge-container {
-    display: flex;
-}
-
-.image-container img {
-    width: 100%;
-}
-
-#logo {
-    width: 400px;
-}
-
-#logo img {
-    border-radius: 100%;
-    border: 2px solid #fff;
-}
-
-#hero #fundo {
-    display: inline-block;
-    width: 100%;
-}
-
-#hero .informacion-contenedor {
-    position: absolute;
-    top: 20%;
-    transform: translateY(17%);
-    left: 0;
-    width: 100%;
-    color: #fff;
-    padding: 0 50px;
-}
-
-#hero .informacion-contenedor #foto {
-    width: 200px;
-}
-
-#hero .informacion-contenedor #foto img {
-    border-radius: 100%;
-}
-
-#hero .informacion-contenedor .informacion {
-    margin-left: 20px;
-    font-weight: bold;
-    width: calc(100% - 200px);
-}
-
-#hero .informacion-contenedor .informacion span {
-    display: inline-block;
-    color: aquamarine;
-    margin-bottom: 70px;
-}
-
-
-main {
-    padding: 100px;
-}
-
-main .social-icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    list-style: none;
-}
-
-main .social-icons li {
-    margin-left: 8px;
-}
-
-main .social-icons .social-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
-}
-
-main .social-icons #linkedIn {
-    background: #1da1f2;
-}
-
-main .social-icons #github {
-    background: #121f3d;
-}
-
-main .social-icons #instagram {
-    background: #3d1230;
-}
-
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 .nav-container {
@@ -230,47 +135,98 @@ label {
     }
 }
 
+header {
+    background: gray;
+    padding: 10px 50px;
+}
 
 
-@media screen and (max-width: 600px) {
-    header {
-        padding: 10px;
-    }
+.imge-container {
+    display: flex;
+}
 
-    #logo {
-        max-width: 245px;
-        position: relative;
-        left: 103px;
-    }
+.image-container img {
+    width: 100%;
+}
 
-    #hero .informacion-contenedor {
-        top: 5%;
-        transform: translateY(0);
-        padding: 0 10px;
-    }
+#logo {
+    width: 400px;
+}
 
-    #hero .informacion-contenedor .informacion p {
-        position: absolute;
-        width: 100%;
-        left: 0;
-        top: 255px;
-    }
+#logo img {
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+
+#hero #fundo {
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .informacion-contenedor {
+    position: absolute;
+    top: 20%;
+    transform: translateY(17%);
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 0 50px;
+}
+
+#hero .informacion-contenedor #foto {
+    width: 200px;
+}
+
+#hero .informacion-contenedor #foto img {
+    border-radius: 100%;
+}
+
+#hero .informacion-contenedor .informacion {
+    margin-left: 20px;
+    font-weight: bold;
+    width: calc(100% - 200px);
+}
+
+#hero .informacion-contenedor .informacion span {
+    display: inline-block;
+    color: aquamarine;
+    margin-bottom: 70px;
+}
 
 
+main {
+    padding: 100px;
+}
 
-    #hero .informacion-contenedor #foto {
-        bottom: 30px;
-        max-width: 70px;
-    }
+main .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+}
 
-    main {
-        padding: 73px;
-    }
+main .social-icons li {
+    margin-left: 8px;
+}
 
-    main .social-icons {
-        margin-top: 10px;
-    }
+main .social-icons .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
 
+main .social-icons #linkedIn {
+    background: #1da1f2;
+}
 
+main .social-icons #github {
+    background: #121f3d;
+}
 
+main .social-icons #instagram {
+    background: #3d1230;
 }
