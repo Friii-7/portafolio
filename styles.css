@@ -142,6 +142,7 @@ label {
     #hero .informacion-contenedor h2 {
         position: absolute;
         left: 8px;
+        top: 20px;
     }
 
 
