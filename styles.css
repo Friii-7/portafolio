@@ -248,8 +248,8 @@ main .social-icons #instagram img {
 
 .svg-frame {
     position: relative;
-    width: 300px;
-    height: 300px;
+    /* width: 300px;
+    height: 300px; */
     transform-style: preserve-3d;
     display: flex;
     justify-content: center;
@@ -307,5 +307,13 @@ main .social-icons #instagram img {
 @keyframes rotate16 {
     to {
         transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .svg-frame {
+        max-width: 80%;
+        left: 41px;
+        bottom: 114px;
     }
 }
